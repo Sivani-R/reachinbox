@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+  }
+  
+  :root {
+    --background-color: #ffffff;
+    --text-color: #000000;
+  }
+  
+  [data-theme='dark'] {
+    --background-color: #000000;
+    --text-color: #ffffff;
+  }
+  
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .login-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .onebox-container {
+    padding: 20px;
+  }
+  
+  .editor-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    margin-right: 5px;
+  }
+  
